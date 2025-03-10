@@ -10,7 +10,7 @@ import static org.junit.Assert.assertEquals;
 public class LionParameterizedTest {
     private final String sex;
     private final boolean expectedMane;
-    public LionParameterizedTest(String sex, boolean expectedMane) throws Exception {
+    public LionParameterizedTest(String sex, boolean expectedMane) {
         this.sex = sex;
         this.expectedMane = expectedMane;
     }
